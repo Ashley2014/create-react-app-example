@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "create-react-app": "node  ./node_modules/create-react-app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ashley2014/create-react-app-example/issues"
   },
-  "homepage": "https://github.com/Ashley2014/create-react-app-example#readme"
+  "homepage": "https://github.com/Ashley2014/create-react-app-example#readme",
+  "devDependencies": {
+    "create-react-app": "^1.4.1"
+  }
 }
