@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "create-react-app": "node  ./node_modules/create-react-app/index.js",
+    "dva": "node  ./node_modules/dva-cli/bin/dva",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Ashley2014/create-react-app-example#readme",
   "devDependencies": {
-    "create-react-app": "^1.4.1"
+    "create-react-app": "^1.4.1",
+    "dva-cli": "^0.8.2"
   }
 }
