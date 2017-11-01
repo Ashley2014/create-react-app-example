@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import './style/tt.css';
 import Button from 'antd/lib/button';
-fetch('/api/v1/warerooms')
+fetch('/api')
+fetch('/api/t1')
 
 class App extends Component {
   render() {

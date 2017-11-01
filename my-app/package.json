@@ -23,7 +23,11 @@
   },
   "proxy": {
     "/api": {
-      "target": "http://cang.weddingee.com",
+      "target": "http://localhost:1234",
+      "ws": true
+    },
+    "/fapi": {
+      "target": "http://10.0.1.215:1234",
       "ws": true
     },
     "/wapi": {

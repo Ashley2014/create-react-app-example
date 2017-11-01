@@ -30,6 +30,15 @@ server = http.createServer(function(req, res) {
                 }
 
                 break
+            case "/api/t1":
+                data.data='t1'
+                if (params.query && params.query.callback) {
+                    res.write(params.query.callback + '(' + JSON.stringify(data) + ')');
+                } else {
+                    res.write(JSON.stringify(data));
+                }
+
+                break
         }
 
 
