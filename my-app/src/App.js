@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './style/tt.css';
 import Button from 'antd/lib/button';
-
+fetch('/api/v1/warerooms')
 
 class App extends Component {
   render() {
@@ -21,6 +22,9 @@ class App extends Component {
                   saf
 
               </div>
+          </div>
+          <div className="tt">
+              saf
           </div>
       </div>
     );
