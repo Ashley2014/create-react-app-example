@@ -3,8 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 import './style/tt.css';
 import Button from 'antd/lib/button';
+let formData = new FormData();
+formData.append('username', 'John');
+formData.append('password', 'John123');
+
 fetch('/api')
 fetch('/api/t1')
+fetch('/fff')
+fetch('/fff/t1')
+fetch("/mapi/koala/authorization", {
+    method: "POST",
+    body:  JSON.stringify({
+        username:'halo',
+        password:'halobear',
+    })
+});
 
 class App extends Component {
   render() {

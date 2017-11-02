@@ -9,7 +9,7 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.16"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -23,15 +23,8 @@
   },
   "proxy": {
     "/api": {
-      "target": "http://localhost:1234",
-      "ws": true
-    },
-    "/fapi": {
-      "target": "http://10.0.1.215:1234",
-      "ws": true
-    },
-    "/wapi": {
-      "target": "http://cang.weddingee.com",
+      "target": "http://activity.halobear.com",
+      "changeOrigin": true,
       "ws": true
     }
   }
